@@ -1,13 +1,10 @@
-# Bootstrap 4 Boilerplate
-
-This is a simple Bootstrap template with responsive Navbar.
-This for educational use.
+# Wizard Communication tool
+This is a simple form with responsive Navbar.
+This for informational use.
 
 ## Getting Started
 
-You can use this template to help build a website. The Navbar items will
-need links in place for your other pages. That will allow the Menu to work
-when you are in mobile sizes.
+...
 
 ## Built With and additional components
 
