@@ -21,6 +21,7 @@
                     ida: false,
                     cp: false,
                     dms : false,
+                    els : true,
                     pbs : false,
                     beesite : false,
                     newsletter : false, 
@@ -38,6 +39,7 @@
                     ida: false,
                     cp: false,
                     dms : false,
+                    els : false,
                     pbs : false,
                     beesite : false,
                     newsletter : false, 
@@ -46,23 +48,24 @@
                     shared: false
                 }
             },
-            {   
-                id: 3,
-                title:'Newsletter',
-                target:'GIZKam',
-                desc: "",
-                tech:{
-                    ida: false,
-                    cp: false,
-                    dms : false,
-                    pbs : false,
-                    beesite : false,
-                    newsletter : true, 
-                    fb: false,
-                    email : false,
-                    shared: false
-                }
-            },
+            // {   
+            //     id: 3,
+            //     title:'Newsletter',
+            //     target:'GIZKam',
+            //     desc: "",
+            //     tech:{
+            //         ida: false,
+            //         cp: false,
+            //         dms : false,
+            //         els : false,
+            //         pbs : false,
+            //         beesite : false,
+            //         newsletter : true, 
+            //         fb: false,
+            //         email : false,
+            //         shared: false
+            //     }
+            // },
             {   
                 id: 4,
                 title:'Information Générale (GIZ Kamerun)',
@@ -72,6 +75,7 @@
                     ida: true,
                     cp: true,
                     dms : false,
+                    els : false,
                     pbs : false,
                     beesite : false,
                     newsletter : true, 
@@ -90,6 +94,7 @@
                     cp: true,
                     dms : false,
                     pbs : false,
+                    els : true,
                     beesite : true,
                     newsletter : false, 
                     fb: false,
@@ -106,12 +111,13 @@
                     ida: true,
                     cp: false,
                     dms : false,
+                    els : false,
                     pbs : false,
                     beesite : false,
                     newsletter : false, 
-                    fb: false,
+                    fb: true,
                     email : true,
-                    shared: true
+                    shared: false
                 }
             },
             {   
@@ -120,26 +126,28 @@
                 target:'GIZKam',
                 desc: "En interne comme à l’extérieur, elles sont un moyen de communication qui permet de rendre visible l’information dans les endroits les plus fréquentés par le groupe cible. Il faut éviter de la surcharger avec des informations abondantes. Il ne faut y faire figurer que l’essentiel qui lui permet d’atteindre l’objectif principal voulu. L’affiche doit être un teaser qui peut conduire la cible vers une personne dont les coordonnées y figurent ou vers une adresse (site internet par exemple) pour plus d’information.",
                 tech:{
-                    ida: false,
+                    ida: true,
                     cp: false,
                     dms : false,
+                    els : true,
                     pbs : false,
                     beesite : false,
-                    newsletter : false, 
-                    fb: false,
+                    newsletter : true, 
+                    fb: true,
                     email : true,
-                    shared: true
+                    shared: false
                 }
             },
             {   
                 id: 8,
-                title:'Comptes rendu ',
+                title:'Compte-rendu ',
                 target:'GIZKam',
-                desc: "En interne comme à l’extérieur, elles sont un moyen de communication qui permet de rendre visible l’information dans les endroits les plus fréquentés par le groupe cible. Il faut éviter de la surcharger avec des informations abondantes. Il ne faut y faire figurer que l’essentiel qui lui permet d’atteindre l’objectif principal voulu. L’affiche doit être un teaser qui peut conduire la cible vers une personne dont les coordonnées y figurent ou vers une adresse (site internet par exemple) pour plus d’information.",
+                desc: "Le rapport de réunion, référence quant au déroulement et productions issus lors de séance de travail.",
                 tech:{
                     ida: false,
                     cp: false,
-                    dms : false,
+                    dms : true,
+                    els : false,
                     pbs : false,
                     beesite : false,
                     newsletter : false, 
