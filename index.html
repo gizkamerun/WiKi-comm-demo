@@ -66,7 +66,7 @@
 
     <nav class="navbar navbar-expand-sm navbar-dark bg-primary mb-3">
         <div class="container">
-            <a class="navbar-brand" href="/">Logo</a>
+            <a class="navbar-brand" href="https://gizkamerun.github.io/WiKi-comm-demo/"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -74,7 +74,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="/">Home</a>
+                        <a class="nav-link" href="https://gizkamerun.github.io/WiKi-comm-demo/">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
@@ -241,32 +241,32 @@
 
 					<div class="form-group">
                         <label class="form-label"> </label>
-                        <div class="selectgroup selectgroup-pills">
-                          <label class="selectgroup-item">
+                        <div class="selectgroup selectgroup-pills ">
+                          <label class="selectgroup-item button-checkbox" data-color="info">
                             <input name="tech.ida" ng-model="query.tech.ida" ng-change="showChanged()" value="IDA" class="selectgroup-input"  type="checkbox" ng-checked="information.tech.ida" disabled="disabled">
                             <span class="selectgroup-button">IDA</span>
                           </label>
-                          <label class="selectgroup-item">
+                          <label class="selectgroup-item button-checkbox" data-color="info" >
                             <input name="tech.cp" ng-model="query.tech.cp" ng-change="showChanged()" value="CommonPortal" class="selectgroup-input" type="checkbox" ng-checked="information.tech.cp" disabled="disabled">
                             <span class="selectgroup-button">Common Portal</span>
                           </label>
-                          <label class="selectgroup-item">
+                          <label class="selectgroup-item button-checkbox" data-color="info">
                             <input name="tech.dms" ng-model="query.tech.dms" ng-change="showChanged()" value="DMS" class="selectgroup-input" type="checkbox" ng-checked="information.tech.dms" disabled="disabled">
                             <span class="selectgroup-button">DMS</span>
                           </label>
-                          <label class="selectgroup-item">
+                          <label class="selectgroup-item button-checkbox">
                             <input name="tech.pbs" ng-model="query.tech.pbs" ng-change="showChanged()" value="PBS" class="selectgroup-input" type="checkbox" ng-checked="information.tech.pbs" disabled="disabled">
                             <span class="selectgroup-button">PBS</span>
                           </label>
-                          <label class="selectgroup-item">
+                          <label class="selectgroup-item button-checkbox">
                             <input name="tech.beesite" ng-model="query.tech.beesite" ng-change="showChanged()" value="BeeSite" class="selectgroup-input" type="checkbox" ng-checked="information.tech.beesite" disabled="disabled">
                             <span class="selectgroup-button">BeeSite</span>
                           </label>
-                          <label class="selectgroup-item">
+                          <label class="selectgroup-item button-checkbox">
                             <input name="tech.newsletter" ng-model="query.tech.newsletter" ng-change="showChanged()" value="Newsletter" class="selectgroup-input" type="checkbox" ng-checked="information.tech.newsletter" disabled="disabled">
                             <span class="selectgroup-button">Newsletter</span>
                           </label>
-                          <label class="selectgroup-item">
+                          <label class="selectgroup-item button-checkbox">
                             <input name="tech.fb" ng-model="query.tech.fb" ng-change="showChanged()" value="FaceBook" class="selectgroup-input" type="checkbox" ng-checked="information.tech.fb" disabled="disabled">
                             <span class="selectgroup-button">FaceBook</span>
 													</label>
@@ -401,7 +401,7 @@
 						var curStep = $(this).closest(".setup-content"),
 							curStepBtn = curStep.attr("id"),
 							nextStepWizard = $('div.setup-panel div a[href="#' + curStepBtn + '"]').parent().next().children("a"),
-							curInputs = curStep.find("input[type='text'],input[type='url']"),
+							curInputs = curStep.find("[attr='select'],input[type='text'],input[type='url']"),
 							isValid = true;
 
 						$(".form-group").removeClass("has-error");
